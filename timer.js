@@ -7,7 +7,7 @@ const alarmTimer = function() {
     setTimeout(() => {
       console.log('⌚⌚It is TIME!⌚⌚');
       return process.stdout.write('\x07');
-    }, i * 1250);
+    }, i * 1000);
   }
 };
 
